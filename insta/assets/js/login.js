@@ -16,7 +16,7 @@ window.addEventListener("load", async () => {
         (profile) => profile.name == username && profile.password == password
       );
       if (user) {
-        window.location.href = "index.html";
+        window.location.href = "../html/index.html";
         localStorage.setItem("username", username);
       } else {
         alert("Username ve ya sifre yanlisdir");
