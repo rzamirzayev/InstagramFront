@@ -1,0 +1,71 @@
+.search_modal{
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 244px;
+    z-index: 1;
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: #fff;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* X offset, Y offset, blur radius, color */
+ animation-name: slideIn; /* CSS animasyonunu belirtir */
+  animation-duration: 0.7s !important;
+    
+    
+}
+.modal_title{
+    padding: 16px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.modal_title h3{
+    padding-bottom: 16px;
+    font-weight: 600;
+}
+.modal_input input{
+    width: 100%;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    border-radius: 8px;
+}
+.modal_input{
+    margin-top: 16px;
+}
+.modal_content{
+    font-weight: 700;
+    padding-top: 8px;
+
+}
+.respo_insta_logo{
+    display: none;
+}
+.looked_modal{
+    display: none;
+}
+@keyframes slideIn{
+    from{
+        left: -1000px;
+    }
+    to{
+        left: 244px;
+    }
+}
+@keyframes slideRespo{
+    from{
+        left: -1000px;
+    }
+    to{
+        left: 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .search_modal{
+        top: 76px;
+        left: 0;
+        width: 100%;
+        animation-name: sliedRespo;
+    animation-duration: 0.7s !important;
+
+    }
+}

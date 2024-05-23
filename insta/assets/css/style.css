@@ -1,0 +1,11 @@
+@import url(./reset.css);
+@import url(./searchmodal.css);
+@import url(./searchModalProfile.css);
+@import url(./header.css);
+@import url(./home.css);
+@import url(./font.css);
+@import url(./responsive.css);
+@import url(./footer.css);
+p{
+    color: rgb(0,0,0) !important;
+}

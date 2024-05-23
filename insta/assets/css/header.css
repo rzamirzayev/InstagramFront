@@ -1,0 +1,61 @@
+.head_title  img{
+    width: 24x;
+    height: 24px;
+    background-color: transparent;
+
+}
+.respo_insta_logo{
+    width: 24x;
+    height: 24px;
+    background-color: transparent;
+}
+.main{
+    display: flex;
+}
+.instagram_logo_img{
+    width: 120px;
+    height: 41px;
+}
+.image_logo{
+    padding-top: 25px;
+    padding-bottom: 16px;
+    margin-bottom: 19px;
+}
+header{
+    padding: 12px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16%;
+    border-right: 1px solid gray;
+    position: fixed;
+}
+
+.head_title{
+    padding: 12px ;
+    margin: 2px 0;
+    height: 48px;
+}
+.head_title button {
+    background-color: transparent;
+    border-style: none;
+}
+
+.head_title p{
+    padding-left: 16px;
+}
+a{
+    color: rgb(var(--ig-primary-text));
+}
+.head_title a:hover{
+    text-decoration: none;
+    color: rgb(var(--ig-primary-text));
+
+}
+.head_title:hover{
+    background-color: rgba(0, 0,0,0.05);
+    transition:background-color 0.3s ;
+    border-radius: 8px;
+}
+

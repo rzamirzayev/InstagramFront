@@ -1,0 +1,31 @@
+.searchProfiles{
+    display: flex;
+    flex-direction: column;
+}
+.searchprofile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.modal_content h4{
+    padding: 16px 0;
+}
+.searchProfiles div{
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.searchProfiles img{
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    margin-right: 15px;
+
+}
+.searchprofile:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s;
+    border-radius: 8px;
+}

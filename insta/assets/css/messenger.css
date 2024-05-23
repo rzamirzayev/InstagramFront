@@ -1,0 +1,82 @@
+@import url(./header.css);
+@import url(./profile_responsive.css);
+@import url(./searchmodal.css);
+.search_modal{
+    left: 78px !important;
+  animation-duration: 0.7s !important;
+
+    animation-name: slideMessenger !important;
+}
+.instagram_logo_img{
+    display: none;
+}
+.head_title p{
+display: none;
+}
+header{
+    width: 5%;
+}
+.respo_insta_logo{
+    margin-left: 15px;
+}
+main{
+    margin-left: 76px;
+    display: flex;
+    justify-content: space-between;
+}
+#message_list{
+    height: 100vh;
+    width: 400px;
+    padding: 16px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.message_modal_title{
+    /* padding: 16px; */
+    margin-top: 8px;
+}
+.messages{
+    margin-top: 16px;
+}
+.messagep{
+    font-weight: 700;
+    position: 0 10px;
+}
+.message_profil{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.message p{
+    margin-bottom: 0;
+}
+.message_profil img{
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+}
+.message span{
+    color: rgb(115,115,115);
+}
+.contact img{
+    width: 40px;
+    height: 40px;
+}
+.message_profil_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profil_img img{
+    width: 44px;
+    height: 44px;
+}
+@keyframes slideMessenger{
+    from{
+        left: -1000px;
+    }
+    to{
+        left: 78px;
+    }
+}
+
+

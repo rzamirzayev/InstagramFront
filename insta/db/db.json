@@ -1,0 +1,124 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "name": "rzamrzw",
+      "password": "rza12345",
+      "desc": "asoiu 3/4",
+      "main_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLpPMitaPkWYpxGdBxzv6Fn7W-bRdzQvxz7fwS0vPVxA&s",
+      "followers": [],
+      "following": ["sabirmrzw"],
+      "story": []
+    },
+    {
+      "id": 2,
+      "name": "sabirmrzw",
+      "password": "12345",
+      "desc": "bdu 1/4",
+      "main_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtXC_IPvPJeOL9862xmpR1X4Gon7xB_Dz1ncc5H28gjg&s",
+      "followers": ["rzamrzw"],
+      "following": [],
+      "story": []
+    },
+    {
+      "id": 3,
+      "name": "sahil",
+      "password": "123",
+      "desc": "bdu 2/4",
+      "main_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtXC_IPvPJeOL9862xmpR1X4Gon7xB_Dz1ncc5H28gjg&s",
+      "followers": [],
+      "following": [],
+      "story": []
+    }
+  ],
+  "posts": [
+    {
+      "postid": 1,
+      "profileId": 1,
+      "postlike": 0,
+      "postdesc": "",
+      "postimage": "https://paradiseproduction.com.tr/wp-content/uploads/2021/08/ceza.png",
+      "like": 0
+    },
+    {
+      "postid": 2,
+      "profileId": 1,
+      "postlike": 0,
+      "postdesc": "",
+      "postimage": "https://i1.sndcdn.com/artworks-ZHm91Uwk1rYP0CkQ-uRshwA-t500x500.jpg",
+      "like": 0
+    },
+    {
+      "postid": 3,
+      "profileId": 1,
+      "postlike": 0,
+      "postdesc": "",
+      "postimage": "https://yt3.googleusercontent.com/QjtZ8P0nFMWnNRjOkpPO-psZDxWDW89gZbhMaKqMYswLMJ2tnMBlELOGS18koAV_10pQsIGy1Q=s900-c-k-c0x00ffffff-no-rj",
+      "like": 0
+    },
+    {
+      "postid": 4,
+      "profileId": 2,
+      "postlike": 0,
+      "postdesc": "",
+      "postimage": "https://b.fssta.com/uploads/application/soccer/headshots/713.png",
+      "like": 0
+    },
+    {
+      "postid": 5,
+      "profileId": 3,
+      "postlike": 0,
+      "postdesc": "",
+      "postimage": "https://b.fssta.com/uploads/application/soccer/headshots/713.png",
+      "like": 0
+    },
+    {
+      "postid": 6,
+      "profileId": 2,
+      "postlike": 0,
+      "postdesc": "",
+      "postimage": "https://variety.com/wp-content/uploads/2021/09/Drake-publicity3-2021.jpg?w=1000",
+      "like": 0
+    },
+    {
+      "postid": 7,
+      "profileId": 2,
+      "postlike": 0,
+      "postdesc": "",
+      "postimage": "https://www.billboard.com/wp-content/uploads/2022/04/Travis-Scott-2022-billboard-1548.jpg?w=942&h=623&crop=1",
+      "like": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "comment": "Ceza"
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "comment": "Blok3"
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "comment": "Sagoba KAJMER"
+    },
+    {
+      "id": 4,
+      "postId": 4,
+      "comment": "Neymar"
+    },
+    {
+      "id": 5,
+      "postId": 5,
+      "comment": "Neymar"
+    },
+    {
+      "id": 6,
+      "postId": 1,
+      "comment": "Cezasd"
+    }
+  ]
+}

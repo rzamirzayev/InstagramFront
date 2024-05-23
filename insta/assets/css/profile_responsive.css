@@ -1,0 +1,88 @@
+@media only screen and (max-width: 600px) {
+    .main{
+        flex-direction: column;
+    }
+    #head_component{
+        height: 70px;
+        width: 100%;
+        position: static;
+    
+    }
+    .none_respo{
+        display: none !important;
+    }
+    .image_logo{
+        display: none;
+    }
+    .head_title p{
+        display: none;
+    }
+    #head_component .search{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #profile{
+        margin-left: 0 !important;
+    }
+    .profile_post img{
+        width: 141px !important;
+        height: 141px !important;
+    }
+    .option {
+        display: none;
+    }
+    .profile_main_image img{
+        width: 77px !important;
+        height: 77px !important;
+    }
+    .profile_main_image{
+        margin-right: 30px;
+        width: 77px !important;
+        height: 77px !important;
+        display: flex;
+        margin-left: 23px;
+        justify-content: center;
+    }
+    .profile_info{
+        margin: 0 !important;
+    }
+    .profile_posts{
+        max-width: 430px !important;
+    }
+    .profile_post{
+        margin-right: 1px !important;
+    }
+    .profile_info_text button{
+        display: none;
+    }
+    .postandfollow_text div{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .postandfollow_text{
+        justify-content: center;
+    }
+    .profile_info_text{
+        padding: 0 34px;
+        width: 100%;
+    }
+    .name_and_button{
+        position: absolute;
+        top: 0;
+        left: 26px;
+    }
+    .profile_info{
+        position: relative;
+    }
+    .profile_desc{  
+      position: absolute;
+        left: 26px;
+        margin-top: 10px;
+    }
+    .post_save_tags_buttons div {
+        width:33% !important;
+        margin-right: 0 !important;
+    }
+}
+

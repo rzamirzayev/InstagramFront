@@ -1,0 +1,44 @@
+@media only screen and (max-width: 600px) {
+    .main{
+        flex-direction: column;
+    }
+    #head_component{
+        height: 70px;
+        width: 100%;
+        position: static;
+
+    }
+    .none_respo{
+        display: none !important;
+    }
+    .image_logo{
+        display: none;
+    }
+    .right-col{
+        display: none !important;
+    }
+    .head_title p{
+        display: none;
+    }
+    #head_component .search{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .option {
+        display: none;
+    }
+    #main_page{
+        width: 100%;
+        margin-left: 0;
+        display: block;
+    }
+    .main_home_page{
+        display: block;
+    }
+    .post_image img{
+        width: 100% !important;
+    }
+    .post{
+        padding: 12px 0;
+    }
+  }
